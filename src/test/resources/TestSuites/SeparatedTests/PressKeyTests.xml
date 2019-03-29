@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Key Presses tests" verbose="1" parallel="tests">
+	
+	<test name="Press Enter Key Test">
+		<classes>
+			<class name="com.herokuapp.theinternet.keypressestests.KeyPressesTests" />
+		</classes>
+	</test>
+	
+</suite>

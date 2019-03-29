@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="IFrame Editor Tests" verbose="1" parallel="tests">
+	
+	<test name="Editor Test">
+		<classes>
+			<class name="com.herokuapp.theinternet.iframepagetests.EditorTests" />
+		</classes>
+	</test>
+
+</suite>

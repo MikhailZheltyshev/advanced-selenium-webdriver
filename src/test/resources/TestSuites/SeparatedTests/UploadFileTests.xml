@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Upload File tests" verbose="1" parallel="tests">
+	
+	<test name="Upload picture file Test">
+		<classes>
+			<class name="com.herokuapp.theinternet.fileuploadpagetests.FileUploadTests" />
+		</classes>
+	</test>
+	
+</suite>

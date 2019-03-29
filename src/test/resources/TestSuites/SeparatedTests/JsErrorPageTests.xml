@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="JS Error page tests" verbose="1" parallel="tests">
+	
+	<test name="Check JS errors on page Test">
+		<classes>
+			<class name="com.herokuapp.theinternet.jserrorpagetests.JsErrorPageTests" />
+		</classes>
+	</test>
+	
+</suite>

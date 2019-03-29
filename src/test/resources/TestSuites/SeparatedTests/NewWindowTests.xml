@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Windows Tests" verbose="1" parallel="tests">
+	
+	<test name="New Window Tests">
+		<classes>
+			<class name="com.herokuapp.theinternet.windowspagetests.WindowsPageTests" />
+		</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Alerts Tests" verbose="1" parallel="tests" thread-count="3">
+	
+	<test name="JavaScript Alerts Tests">
+		<classes>
+			<class name="com.herokuapp.theinternet.alertstests.JsAlertTests" />
+		</classes>
+	</test>
+	
+</suite>
